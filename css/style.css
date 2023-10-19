@@ -47,7 +47,7 @@ a{
     text-decoration: none;
 }
 
-.p-x-y{
+.section-padding{
     padding: 2rem 8rem;
 }
 
@@ -142,3 +142,66 @@ a{
 #hero .hero-content h1{
     color: var(--light-green);
 }
+
+
+/* Features Section */
+
+.features-container{
+    text-align: center;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.features-container h4{
+    padding: 1rem;
+    color: var(--light-green);
+}
+
+.feature{
+   width: 180px;
+   padding: 2.5rem 1.5rem;
+   box-shadow: 2rem 2rem 3.4rem rgba(0, 0, 0, 0.03);
+   border: 1px solid #cce7d0;
+   border-radius: 4px;
+   margin: 15px 0;
+   cursor: pointer;
+}
+
+
+.feature img{
+    width: 100%;
+}
+.feature:hover{
+    box-shadow: 1rem 1rem 2.4rem rgba(0, 0, 0, 0.03);
+}
+
+.feature h4{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+
+.feature:nth-of-type(1) h4{
+background-color: #fddde4;
+}
+.feature:nth-of-type(2) h4{
+background-color: #cdebbc;
+}
+.feature:nth-of-type(3) h4{
+background-color: #d1e8f2;
+}
+.feature:nth-of-type(4) h4{
+background-color: #cdd4f8;
+}
+.feature:nth-of-type(5) h4{
+background-color: #f6dbf6;
+}
+.feature:nth-of-type(6) h4{
+background-color: #fff2e5;
+}
+
