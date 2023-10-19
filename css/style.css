@@ -3,14 +3,20 @@
 :root{
     --heading-color:#222;
     --para-color:#465b52;
+    --main-color:#e3e6f3;
+    --max-width:1400px;
 }
 
+html{
+    font-size: 62.5%;
+
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     line-height: 1.4;
-font-family: 'League Spartan', sans-serif;
+   font-family: 'League Spartan', sans-serif;
 }
 
 h1,h2,h3,h4,h6{
@@ -28,4 +34,67 @@ p{
 
 .section-m1{
     margin: 40px 0;
+}
+
+
+
+/* Utility */
+body{
+    font-size: 1.6rem;
+}
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 2rem 8rem;
+    background-color: var(--main-color);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar .menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#navbar .menu .item{
+    margin: 0 1rem;
+    position: relative;
+}
+
+.item a{
+    padding: 1.8rem 2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    font-size: 1.8rem;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#navbar .menu .item a:hover{
+    color: #088178;
+}
+
+.item a:hover::after, #active::after{
+    color: #088178;
+    content: '';
+    width: 30px;
+    background-color: #088178;
+    position: absolute;
+    height: 3px;
+    margin: auto;
+    top: 24px;
+    left: 19px;
+    color: #088178;
+}
+
+#active{
+    color: #088178;
 }
