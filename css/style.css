@@ -76,6 +76,21 @@ a{
     color: white;
 }
 
+
+
+.btn-banner{
+    background-color: transparent;
+    padding: 1.2rem 1.4rem ;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: unset;
+}
+
+.btn-banner:hover{
+    background-color: var(--light-green);
+    color: white;
+    border: 1px solid transparent;
+}
 /* Navbar */
 
 #navbar{
@@ -312,3 +327,17 @@ background-color: #fff2e5;
         margin-bottom: 1rem;
 }
 
+
+/* Section Banner - 2 */
+
+#banner-2{
+    font-size: 1.9rem;
+}
+
+#banner-2 .crazy-banner{
+    color: white !important;
+    background: url('../img/banner/b17.jpg') no-repeat;
+    min-width: 580px;
+    height: 40vh;
+    padding: 9.5rem 4rem;
+}
