@@ -29,6 +29,14 @@ p{
         margin: 10px 0 20px;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
 
 
 
@@ -486,3 +494,43 @@ background-color: #fff2e5;
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
 }
+
+
+/* footer */
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#footer .logo{
+    margin-bottom: 3rem;
+}
+
+#footer ul li{
+    margin: 1rem 0;
+}
+
+#footer .follow-us ul {
+    display: flex;
+    gap: 2rem;
+}
+
+#footer .row img{
+    border: 1px solid var(--light-green);
+    margin-right: 1rem;
+}
+
+#footer a:hover{
+    color: #088178;
+}
+
+
+.copyright{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
