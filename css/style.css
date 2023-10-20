@@ -54,7 +54,6 @@ a{
     font-weight: 600;
     border: 0;
     outline: 0;
-    border-radius: 6px;
 }
 
 .btn-shop{
@@ -335,8 +334,7 @@ background-color: #fff2e5;
     font-size: 1.9rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 4rem;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -392,7 +390,7 @@ background-color: #fff2e5;
 
 #banner-3{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 3rem;
     flex-wrap: wrap;
 }
@@ -431,4 +429,60 @@ background-color: #fff2e5;
     background: url('/img/banner/b18.jpg') no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+
+
+/* Section NewsLetter */
+
+#news-letter{
+    margin-top: 4rem;
+    background: url('/img/banner/b14.png') no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+#news-letter .news-text{
+    font-size: 1.8rem;
+}
+
+#news-letter .news-text span{
+    color:gold;
+}
+#news-letter .news-text h2{
+    font-size: 3rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+#news-letter .news-form{
+    background-color: white;
+    border-radius: 4px;
+}
+
+#news-letter .news-form .form-style{
+    border: 0;
+    padding: 1rem;
+    font-size: 1.6rem;
+    outline: 0;
+    border-radius: 4px;
+    padding: 1.5rem;
+}
+
+#news-letter input{
+    width: 300px;
+}
+
+#news-letter button{
+    background-color: var(--light-green);
+    color: white;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
 }
