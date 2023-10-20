@@ -18,4 +18,16 @@
     #navbar .menu .item{
         margin-bottom: 1rem;
     }
+
+    #mobile{
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    #mobile i{
+        font-size: 2.4rem;
+        color: #1a1a1a;
+        cursor: pointer;
+    }
 }
