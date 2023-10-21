@@ -1,3 +1,5 @@
+/* Tablet Devices */
+
 @media (max-width:799px) {
     .section-padding{
         padding: 2rem 5rem;
@@ -106,3 +108,32 @@
     }
 }
 
+/* Mobile Devices */
+
+@media (max-width:477px){
+    html{
+        font-size: 50%;
+    }
+
+    .section-padding{
+        padding: 2rem;
+    }
+
+    .feature {
+        width: 120px;
+        padding: 1rem;
+    }
+
+    #banner-2 .banner-box {
+        background-position: right;
+    }
+
+    #banner-3 .banner-box {
+        width: 100%;
+    }
+
+    #news-letter .news-form .form-style {
+        width: 100%;
+        border-radius: 0;
+    }
+}
