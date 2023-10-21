@@ -384,7 +384,7 @@ background-color: #fff2e5;
 
 
 #banner-2 .banner-box:nth-of-type(2){
-    background:url('/img/banner/b10.jpg') no-repeat;
+    background:url('../img/banner/b10.jpg') no-repeat;
 }
 
 
@@ -402,7 +402,7 @@ background-color: #fff2e5;
 #banner-3 .banner-box{
     min-width: 25%;
     height: 30vh;
-    background: url('/img/banner/b7.jpg');
+    background: url('../img/banner/b7.jpg');
     display: grid;
     place-content: center;
     justify-content: left;
@@ -423,13 +423,13 @@ background-color: #fff2e5;
 
 #banner-3 .banner-box:nth-of-type(2){
 
-    background: url('/img/banner/b4.jpg') no-repeat;
+    background: url('../img/banner/b4.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 #banner-3 .banner-box:nth-of-type(3){
 
-    background: url('/img/banner/b18.jpg') no-repeat;
+    background: url('../img/banner/b18.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -440,7 +440,7 @@ background-color: #fff2e5;
 
 #news-letter{
     margin-top: 4rem;
-    background: url('/img/banner/b14.png') no-repeat;
+    background: url('../img/banner/b14.png') no-repeat;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
