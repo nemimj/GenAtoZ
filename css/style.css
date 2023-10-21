@@ -118,6 +118,10 @@ a{
     display: none;
 }
 
+#close{
+    display: none;
+}
+
 #navbar .menu{
     list-style: none;
     display: flex;
@@ -382,9 +386,7 @@ background-color: #fff2e5;
 #banner-2 .banner-box:nth-of-type(2){
     background:url('/img/banner/b10.jpg') no-repeat;
 }
-#banner-2 .banner-box:nth-of-type(2)::before{
-   width: 98%;
-}
+
 
 
 /* Section banner-3 */
