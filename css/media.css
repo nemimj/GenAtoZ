@@ -45,4 +45,18 @@
     .shopping-bag{
         display: none;
     }
+
+
+
+    /* Hero section */
+
+    #hero {
+        height: 70vh;
+        background-position: top 15% right 0;
+    }
+
+    #hero .hero-content {
+        font-size: 3rem;
+        width: 100%;
+    }
 }
