@@ -82,4 +82,27 @@
         min-width:100%;
         height: 40vh;
     }
+
+
+    /* Banner-3 Section */
+
+    #banner-3 .banner-box {
+        /* min-width: 25%; */
+        width: 46%;
+    }
+
+    #banner-3 .banner-box:nth-of-type(3) {
+       width: 100%;
+    }
+
+    #banner {
+        padding: 2rem;
+    }
+
+    /* News letter section */
+
+    #news-letter {
+       justify-content: center;
+    }
 }
+
