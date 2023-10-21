@@ -555,3 +555,19 @@ background-color: #fff2e5;
     font-size: 2.5rem;
     color: white;
 }
+
+#pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2.5rem;
+}
+
+#pagination a{
+    color: white;
+    padding: 1.5rem 2rem;
+    background-color: var(--light-green);
+    border-radius: 10px;
+    font-weight: 600;
+}
