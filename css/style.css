@@ -646,3 +646,30 @@ background-color: #fff2e5;
     padding: 1rem;
     margin: 0;
 }
+
+
+
+/* Blog.html  */
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background: url('/img/banner/b19.jpg') no-repeat;
+    background-position: top 13% left 89%;
+}
+
+.blog-content{
+    text-align: center;
+    color: white;
+}
+
+.blog-content h2{
+    color: white;
+    font-size: 5rem;
+}
+
+.blog-content p{
+    color: #d1bcbc;
+    font-size: 1.6rem;
+}
