@@ -753,3 +753,26 @@ background-color: #fff2e5;
     right: -64px;
     background-color: black;
 }
+
+
+
+/* about.html */
+
+#about-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url('/img/about/banner.png') no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 30vh;
+}
+
+#about-banner h2{
+    color: #fefefe;
+    font-size: 5rem;
+}
+
+#about-banner p{
+    color: white;
+}
