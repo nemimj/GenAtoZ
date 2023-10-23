@@ -940,6 +940,8 @@ textarea {
 .contact-map iframe{
     width: 100%;
 }
+
+
 .contact-fill button{
     display: block;
     margin: 2rem 0 0;
@@ -954,4 +956,9 @@ textarea {
     display: flex;
     gap: 2rem;
     padding: 2rem;
+}
+
+.testimonials h2{
+    text-align: center;
+    font-size: 4.5rem;
 }
