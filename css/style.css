@@ -852,6 +852,7 @@ background-color: #fff2e5;
 #contact-banner{
     padding: 3rem 1rem;
     justify-content: center;
+
     background:url('/img/about/banner.png') no-repeat;
     background-position: center;
     text-align: center;
@@ -868,9 +869,25 @@ background-color: #fff2e5;
 
 
 #contact{
+    justify-content: space-around;
     display: flex;
+    align-items: center;
 }
 
-#contact-details{
+.contact-details{
     width: 50%;
+}
+
+.contact-details h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-details li{
+    margin:1rem 0;
+}
+
+.contact-details i{
+    margin-right: 1.5rem;
+
 }
