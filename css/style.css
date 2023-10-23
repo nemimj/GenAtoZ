@@ -776,3 +776,73 @@ background-color: #fff2e5;
 #about-banner p{
     color: white;
 }
+
+
+
+/* Section who-we */
+
+#who{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin: 4rem 2rem;
+}
+
+
+.who-img{
+    padding: 2rem;
+    width: 50%;
+}
+.who-img img{
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.who-details{
+    width: 50%;
+}
+
+.who-details h1{
+    font-size: 5.6rem;
+}
+
+.who-details p{
+    line-height: 1.6;
+    font-size: 1.8rem;
+}
+
+.who-details span{
+    border-bottom: 1px dotted;
+}
+
+
+/* Section About app */
+
+#about-app{
+    text-align: center;
+}
+
+#about-app .video {
+    margin: 2rem 0;
+    width: 60%;
+    /* border-radius: 2rem; */
+    margin: 2rem auto;
+}
+
+#about-app video {
+    width: 80%;
+    /* height: 70vh; */
+    border-radius: 2rem;
+}
+
+#about-app h1{
+    font-size: 5rem;
+}
+
+#about-app span{
+    color: purple;
+    cursor: pointer;
+    text-decoration: underline;
+}
