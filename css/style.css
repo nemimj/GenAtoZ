@@ -731,14 +731,25 @@ background-color: #fff2e5;
 
 #blog .blog-box .blog-details a{
     font-size: 2rem;
+    position: relative;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
 }
+#blog .blog-box .blog-details a:hover{
+    color: var(--light-green);
+}
+#blog .blog-box .blog-details a:hover::after{
+    background-color: var(--light-green);
+}
+
+
 
 #blog .blog-box .blog-details a::after {
     content: '';
     width: 5rem;
     height: 2px;
     position: absolute;
-    top: 241px;
-    right: 445px;
+    top: 10px;
+    right: -64px;
     background-color: black;
 }
