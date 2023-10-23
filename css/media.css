@@ -141,6 +141,26 @@
 #blog .blog-box {
     margin: 0;
 }
+
+#who {
+    flex-direction: column;
+}
+
+.who-img {
+    width: 100%;
+}
+.who-details {
+    width: 100%;
+}
+
+#about-app .video {
+   width: 100%;
+}
+
+#about-app video{
+    width: 90%;
+}
+
 }
 
 /* Mobile Devices */
