@@ -124,6 +124,23 @@
 #product-view .product-details input {
     margin: 1.2rem;
 }
+
+#blog {
+    padding: 6rem 4rem;
+    gap: 8rem;
+}
+
+.blog-box h1 {
+    position: absolute;
+    top: -4rem;
+    left: 3rem;
+    font-size: 7rem;
+    z-index: -1;
+    opacity: 0.5;
+}
+#blog .blog-box {
+    margin: 0;
+}
 }
 
 /* Mobile Devices */
@@ -153,6 +170,23 @@
     #news-letter .news-form .form-style {
         width: 100%;
         border-radius: 0;
+    }
+
+    #blog .blog-box {
+        flex-direction: column;
+    }
+
+    #blog .blog-box .blog-img {
+        width: 100%;
+    }
+
+    #blog .blog-box .blog-details {
+        width: 100%;
+        margin-right: 5rem;
+    }
+
+    .blog-box h1 {
+        top: -6rem;
     }
 }
 
