@@ -83,7 +83,7 @@ a{
     color: white;
 }
 .btn-green{
-    display: block;
+    display: inline-block;
     margin: 2rem 0 0;
     font-size: 1.6rem;
     background: var(--light-green);
@@ -1026,3 +1026,5 @@ textarea {
 #cart-items tbody td{
     padding-top: 3rem;
 }
+
+
