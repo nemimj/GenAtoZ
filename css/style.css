@@ -3,8 +3,8 @@
 :root{
     --heading-color:#222;
     --para-color:#465b52;
-    --main-color:#e3e6f3;
-    --light-green:#088178;
+    --main-color:#eb7468;
+    --light-white:#fff;
     --max-width:1400px;
 }
 
@@ -86,7 +86,7 @@ a{
     display: inline-block;
     margin: 2rem 0 0;
     font-size: 1.6rem;
-    background: var(--light-green);
+    background: var(--light-white);
     color: white;
     padding: 1rem 2rem;
 }
@@ -101,7 +101,7 @@ a{
 }
 
 .btn-banner:hover{
-    background-color: var(--light-green);
+    background-color: var(--light-white);
     color: white;
     border: 1px solid transparent;
 }
@@ -150,24 +150,24 @@ a{
 
 
 #navbar .menu .item a:hover{
-    color: var(--light-green);
+    color: var(--light-white);
 }
 
 .item a:hover::after, #active::after{
-    color: var(--light-green);
+    color: var(--light-white);
     content: '';
     width: 30px;
-    background-color: var(--light-green);
+    background-color: var(--light-white);
     position: absolute;
     height: 3px;
     margin: auto;
     top: 24px;
     left: 19px;
-    color: var(--light-green);
+    color: var(--light-white);
 }
 
 #active{
-    color: var(--light-green);
+    color: var(--light-white);
 }
 
 
@@ -1065,4 +1065,18 @@ textarea {
 #cart-totals input{
     padding: 0.8rem;
     width: 70%;
+}
+
+
+
+
+
+/* New Css style  */
+
+#logo{
+    width: 120px;
+}
+
+#logo img{
+    width: 100%;
 }
